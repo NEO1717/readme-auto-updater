@@ -1,22 +1,18 @@
 name: Update GitHub Activity
+
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Every 30 minutes
-  workflow_dispatch:
+    - cron: "*/30 * * * *" # Runs every 30 minutes
+  workflow_dispatch: # Allows manual triggering
 
 jobs:
   update-activity:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
+      - uses: actions/checkout@v4
       - name: Update GitHub Activity
-        uses: ggofri/github-activity-updater@v1
+        uses: TheDanniCraft/activity-log@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          username: NEO1717
+          GITHUB_USERNAME: "thedannicraft"
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }} 
+          # Ensure this matches the secret name in repository settings
