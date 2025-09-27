@@ -1,43 +1,27 @@
 name: Update README with Recent Commits
 
 on:
-  # 設定為每天 UTC 時間的午夜自動執行
   schedule:
-    - cron: '0 0 * * *'
-  # 允許手動執行，方便我們立即測試
+    - cron: '0 * * * *'
   workflow_dispatch:
+
+# **關鍵修正點：新增 permissions 區塊**
+# 明確地為整個 workflow 授予寫入權限
+permissions:
+  contents: write
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      # 步驟一：Checkout 儲存庫的程式碼
-      # 這是必要的，因為 Action 需要讀寫 README.md 檔案
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 步驟二：執行 blog-post-workflow Action
       - name: Update README with recent commits
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # ** feed_list **:
-          # 這是最重要的參數，指定了內容的來源。
-          # 我們把它設定為您儲存庫 main 分支的 commit feed URL。
           feed_list: "https://github.com/NEO1717/readme-auto-updater/commits/main.atom"
-
-          # ** comment_tag_name **:
-          # 指定 README 中用來標示更新區塊的標籤名稱。
-          # 必須和您在 README 中設定的完全一樣。
           comment_tag_name: "LATEST_COMMITS"
-
-          # ** readme_path **:
-          # 指定要更新的 README 檔案路徑。
           readme_path: "./README.md"
-
-          # ** commit_message **:
-          # Action 自動更新檔案時，所使用的 commit 訊息。
           commit_message: "chore: Update README with recent commits"
-
-          # ** max_post_count **:
-          # 限制最多顯示幾條最新的 commit 紀錄。
           max_post_count: 5
