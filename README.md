@@ -14,6 +14,9 @@
 10. 🆕 Opened an issue in a private repo
 <!--END_SECTION:activity-->
 
+<!-- LATEST_COMMITS:START -->
+<!-- LATEST_COMMITS:END -->
+
 
 <!-- LATEST_COMMITS:START -->
 <!-- LATEST_COMMITS:END -->
