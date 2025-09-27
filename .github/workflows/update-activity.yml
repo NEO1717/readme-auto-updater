@@ -11,9 +11,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 0 代表下載完整的 commit 歷史紀錄
+          fetch-depth: 0 
       - name: Update GitHub Activity
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "NEO1717"
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }} 
+          EVENT_TYPES: "IssuesEvent,IssueCommentEvent,PullRequestEvent"
+
