@@ -15,4 +15,7 @@
 <!--END_SECTION:activity-->
 
 
+<!-- LATEST_COMMITS:START -->
+<!-- LATEST_COMMITS:END -->
+
 ## About me
