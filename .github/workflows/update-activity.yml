@@ -10,12 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 
+
       - name: Update GitHub Activity
         uses: TheDanniCraft/activity-log@v1
         with:
           GITHUB_USERNAME: "NEO1717"
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }} 
-          EVENT_TYPES: "IssuesEvent,IssueCommentEvent,PullRequestEvent"
 
