@@ -5,8 +5,6 @@ on:
     - cron: '0 * * * *'
   workflow_dispatch:
 
-# **關鍵修正點：新增 permissions 區塊**
-# 明確地為整個 workflow 授予寫入權限
 permissions:
   contents: write
 
