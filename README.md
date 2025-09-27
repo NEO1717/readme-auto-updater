@@ -13,3 +13,6 @@
 9. ❌ Closed an issue in a private repo
 10. 🆕 Opened an issue in a private repo
 <!--END_SECTION:activity-->
+
+
+## About me
