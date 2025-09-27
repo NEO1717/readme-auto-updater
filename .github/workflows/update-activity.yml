@@ -17,3 +17,5 @@ jobs:
         with:
           GITHUB_USERNAME: "NEO1717"
           GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }} 
+          EVENT_TYPES: "IssuesEvent,IssueCommentEvent,PullRequestEvent"
+
