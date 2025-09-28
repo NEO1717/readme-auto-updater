@@ -2,11 +2,11 @@
 
 ## Recent Activity
 <!-- LATEST_COMMITS:START -->
-- [Update update-activity.yml](https://github.com/NEO1717/readme-auto-updater/commit/bd6aa9e48ace15860175dc767f744484710731f3)
-- [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/3ca9aa752292967c93401f461d298cc2b8544b3b)
-- [Update README.md](https://github.com/NEO1717/readme-auto-updater/commit/a61576cd24bb24493cbb5fee20b34caab47f5e2c)
-- [Update README.md](https://github.com/NEO1717/readme-auto-updater/commit/eaf414e81cb96a4d7b295fea766d0f5d8d408f6d)
-- [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/67d4265bdff664207b18eef323a3a31c77080d23)
+- [Merge pull request #20 from NEO1717/AUR-3-As-a-PM-I-want-the-README-t…](https://github.com/NEO1717/readme-auto-updater/commit/ba9566c94b35b80b18da7f740053db3f8066b8fe)
+- [AUR-3 #done](https://github.com/NEO1717/readme-auto-updater/commit/fd4c2de26ad5ca01edf69c46a93d84fd2c7a94a3)
+- [AUR-3 #done Testing Smart Commit from a branch](https://github.com/NEO1717/readme-auto-updater/commit/e9dd7dc9b32ef5e170477eb8d9fd82d529d1959c)
+- [Merge pull request #18 from NEO1717/AUR-3-As-a-PM-I-want-the-README-t…](https://github.com/NEO1717/readme-auto-updater/commit/79932ead8d02e50015535f9b4df78cf1c41df5af)
+- [AUR-3 #DONE](https://github.com/NEO1717/readme-auto-updater/commit/0d98224d50ab1b7f929d8e3acb43d45d8ebb7629)
 <!-- LATEST_COMMITS:END -->
 
 ## About me
