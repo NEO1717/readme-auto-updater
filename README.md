@@ -2,6 +2,7 @@
 
 ## Recent Activity
 <!-- LATEST_COMMITS:START -->
+- [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/773da2093e699dffa04add4a7e0d11a14b991d0e)
 - [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/f8d9e836bf12eb1452a13efe4ee86561d9263a4d)
 - [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/c3203867100a5cddd9d38f80aaecb9c02bdb9626)
 - [chore: Update README with recent commits](https://github.com/NEO1717/readme-auto-updater/commit/8e3f6375b6ad0c3cb5bfdecd2dd13dfd9fe81156)
@@ -21,6 +22,5 @@
 - [Merge pull request #18 from NEO1717/AUR-3-As-a-PM-I-want-the-README-t…](https://github.com/NEO1717/readme-auto-updater/commit/79932ead8d02e50015535f9b4df78cf1c41df5af)
 - [AUR-3 #DONE](https://github.com/NEO1717/readme-auto-updater/commit/0d98224d50ab1b7f929d8e3acb43d45d8ebb7629)
 - [Merge pull request #17 from NEO1717/AUR-3-As-a-PM-I-want-the-README-t…](https://github.com/NEO1717/readme-auto-updater/commit/2f598de3c588b69452fd547d308090b585f96db7)
-- [AUR-3 #done Finished the README auto-update feature and all tests pas…](https://github.com/NEO1717/readme-auto-updater/commit/f071da8121f50a9518e995fe746cb69a65cfc4ae)
 <!-- LATEST_COMMITS:END -->
 
