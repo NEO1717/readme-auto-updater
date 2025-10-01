@@ -9,4 +9,3 @@
 - [Merge pull request #18 from NEO1717/AUR-3-As-a-PM-I-want-the-README-t…](https://github.com/NEO1717/readme-auto-updater/commit/79932ead8d02e50015535f9b4df78cf1c41df5af)
 <!-- LATEST_COMMITS:END -->
 
-## About me
